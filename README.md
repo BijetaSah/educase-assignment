@@ -57,6 +57,7 @@ Open in browser:
 http://localhost:5173
 
 🌍 Deployed Link
+https://educase-assignmnet.netlify.app/profile
 
 ✨ Extra Notes
 -- Components are designed to be reusable and can be integrated into different files.
