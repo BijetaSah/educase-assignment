@@ -4,7 +4,7 @@ function Button({ children, type = "primary" }) {
   const btnTypeStyle = {
     primary: "bg-indigo-600 hover:bg-indigo-700 text-purple-50",
     secondary: "bg-purple-200 text-purple-800 hover:bg-purple-300",
-    disabled: "bg-slate-400 text-slate-100 cursor-not-allowed",
+    disabled: "bg-stone-400 text-slate-100 cursor-not-allowed",
   };
   return (
     <button

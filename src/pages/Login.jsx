@@ -22,7 +22,7 @@ function Login() {
           Password
         </Input>
 
-        <Button type="primary">Create Account</Button>
+        <Button type="disabled">Login</Button>
       </form>
     </ContainerBox>
   );

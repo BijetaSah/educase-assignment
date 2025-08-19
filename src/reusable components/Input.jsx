@@ -21,7 +21,7 @@ function Input({
         required
         value={value}
         onChange={onChange}
-        className="w-full border-1 border-stone-400 px-6 py-2.5 focus:outline-none focus:ring focus:ring-stone-400 focus:ring-offset-1 rounded-sm placeholder:text-[14px] placeholder:text-stone-400
+        className="w-full border-1 border-stone-400 px-6 py-2 focus:outline-none focus:ring focus:ring-stone-400 focus:ring-offset-1 rounded-sm placeholder:text-[14px] placeholder:text-stone-400
         text-sm
        appearance-none 
           font-inherit 

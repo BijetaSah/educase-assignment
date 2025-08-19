@@ -6,11 +6,16 @@ function Profile() {
       <header className=" bg-white text-md py-3 px-4 text-stone-700 font-bold rounded-t-sm">
         Account Settings
       </header>
-      <div className="flex gap-3 px-2 py-5">
+      <div className="flex gap-3 px-2 py-5 relative">
         <img
           src="/hannah.jpg"
           alt=""
           className="w-[5rem] rounded-full bg-red-100"
+        />
+        <img
+          src="/upload.png"
+          alt="Image of a camera"
+          className="w-[1.5rem] h-[1.5rem] bg-indigo-700 p-1 rounded-full absolute translate-x-[4rem] translate-y-[3rem]"
         />
         <div>
           <h3 className="text-sm font-bold text-stone-800">Mary Joe</h3>

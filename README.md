@@ -1,12 +1,63 @@
-# React + Vite
+📌 Educase Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is an implementation of the UI assignment provided by Educase, built with modern frontend practices.
+I enhanced the given requirements by adding extra features like a navigation bar with React Router, reusable components, and a fully responsive layout.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✅ UI Implementation as per given design
 
-## Expanding the ESLint configuration
+✅ Responsive Layout (works across devices)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✅ Reusable Components for better maintainability
+
+✅ Navigation Bar with React Router v6 for seamless page navigation
+
+✅ Clean & Scalable Code Structure
+
+🛠️ Tech Stack
+
+⚛️ React
+
+🌐 React Router v6
+
+🎨 Tailwind CSS
+
+📂 Folder Structure
+educase-assignment/
+│-- public/
+│-- src/
+│ │-- reusable components/ # Reusable UI components
+│ │-- pages/ # Page-level components
+│ │-- App.jsx
+│ │-- main.jsx
+|-- index.css # For adding tailwind style
+│-- package.json
+│-- package-lock.json
+│-- vite.config.js
+│-- README.md
+
+Getting Started
+
+Clone the repository
+
+git clone <repo-url>
+cd educase-assignment
+
+Install dependencies
+
+npm install
+
+Run the project
+
+npm run dev
+
+Open in browser:
+
+http://localhost:5173
+
+🌍 Deployed Link
+
+✨ Extra Notes
+-- Components are designed to be reusable and can be integrated into different files.
+-- The layout is fully responsive for mobile, tablet, and desktop.

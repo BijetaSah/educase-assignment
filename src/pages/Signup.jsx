@@ -1,11 +1,11 @@
 import Input from "../reusable components/Input";
 import Button from "../reusable components/Button";
 import ContainerBox from "../reusable components/ContainerBox";
-import { Form } from "react-router-dom";
+
 function Signup() {
   return (
     <ContainerBox>
-      <Form className="flex flex-col gap-8 px-6 pt-5">
+      <form className="flex flex-col gap-6 px-6 pt-5 h-full pb-5">
         <h1 className="text-stone-900 text-2xl font-bold">
           Create your <br />
           PopX account
@@ -37,9 +37,10 @@ function Signup() {
             <label htmlFor="yes">No</label>
           </div>
         </div>
-
-        <Button type="primary">Create Account</Button>
-      </Form>
+        <div className="mt-auto">
+          <Button type="primary">Create Account</Button>
+        </div>
+      </form>
     </ContainerBox>
   );
 }
